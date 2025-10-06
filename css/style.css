@@ -26,3 +26,15 @@
 .checkbox {
 	display: none;
 }
+
+/*==========// 体力ゲージ //==========*/
+.gage meter {
+	appearance: none;
+	width: 200px;
+}
+.gage meter::-webkit-meter-optimum-value {
+	background: #05ce5c;
+}
+.gage meter::-webkit-meter-bar {
+	background: #eee;
+}
